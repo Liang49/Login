@@ -1,11 +1,17 @@
 import "./styles.css";
+import Avatar from "@mui/material/Avatar";
 
 export default function App() {
   return (
     <div className="App">
       <form>
+        <div class="imgcontainer">
+          <Avatar
+            sx={{ height: "70px", width: "70px" }}
+            src="/broken-image.jpg"
+          />
+        </div>
         <div className="login">
-          <h1>Login</h1>
           <label>Username</label>
           <input type="text" name="name" placeholder="Username or Email" />
         </div>
