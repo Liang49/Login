@@ -13,7 +13,8 @@ export default function App() {
           <label>Password</label>
           <input type="text" name="password" placeholder="Password" />
         </div>
-        <button>Login</button>
+        <button>Sign in</button>
+        <div>Forgot password</div>
       </form>
     </div>
   );
