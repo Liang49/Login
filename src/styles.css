@@ -30,6 +30,10 @@ input {
   margin-top: 30px;
   display: block;
 }
+
+input::placeholder {
+  color: whitesmoke;
+}
 label {
   font-size: 30px;
   margin-top: 30px;

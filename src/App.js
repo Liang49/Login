@@ -20,7 +20,7 @@ export default function App() {
           <input type="text" name="password" placeholder="Password" />
         </div>
         <button>Sign in</button>
-        <div>Forgot password</div>
+        <div style={{ color: "whitesmoke" }}>Forgot password</div>
       </form>
     </div>
   );
